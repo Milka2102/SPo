@@ -1,0 +1,23 @@
+include "map.inc"
+include "bob.inc"
+
+# configure the GUI window
+window
+(
+   size [512 512]
+   scale 85.744
+)
+
+# load an environment bitmap
+floorplan
+(
+   bitmap "labirint.png"
+   size [30.000 30.000 2.000]
+)
+
+bigbob
+(
+      name "bob1"
+      pose [-13.8 -8 0 90]
+      color "green"
+)
